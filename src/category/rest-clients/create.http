@@ -1,0 +1,9 @@
+POST {{nestjsHost}}/api/v1/role HTTP/1.1
+Content-Type: application/json
+
+{
+  "data": {
+    "name": "Plan A",
+    "status": "active"
+  }
+}
